@@ -78,6 +78,7 @@ body {
 		color: #ffa;
 		text-shadow: 1px 3px 3px black;
 	}
+}
 
 .back {
 	transform: rotateX(180deg);
