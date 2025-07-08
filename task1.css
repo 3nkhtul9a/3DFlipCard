@@ -10,6 +10,12 @@ body {
 	font-family: monospace;
 }
 
+.title h1{  
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .card {
 	width: 320px;
 	height: 445px;
@@ -41,7 +47,7 @@ body {
 	backface-visibility: hidden;
 	transform-style: preserve-3d;
 	border-radius: 10px;
-  border: 5px solid yellow;
+  border: 5px solid red;
   
 
 	.inner {
@@ -89,9 +95,9 @@ body {
 .back {
 	transform: rotateY(180deg);
 	background-color: #fff;
-	border: 5px solid yellow;
+	border: 5px solid red;
   overflow: hidden;
-	.inner {
+	.inner {    
     padding-left: 10px;
 		grid-template-columns: repeat(4, auto);
 		grid-column-gap: 0.3em;
